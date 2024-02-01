@@ -1,0 +1,14 @@
+
+
+body {
+  background-color: #a1c3ff;
+  font-size: 15px;
+  line-height: 1.5;
+  display: flex;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
