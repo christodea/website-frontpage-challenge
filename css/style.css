@@ -1,8 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 body {
   background-color: #a1c3ff;
   font-size: 18px;
+  font-family: 'Inter' , 'sans-serif';
   line-height: 1.6;
   display: flex;
   font-weight: bold;
@@ -16,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 80px;
+  max-height: 100px;
   background-color: #fff;
   position: sticky;
 }
@@ -37,11 +39,10 @@ body {
 }
 
 .openMenu {
-  height: 40px;
-  width: 40px;
+  height: 32px;
+  width: 32px;
   display: none;
   cursor: pointer;
-  margin-left: 4rem;
   margin-right: 0;
 }
 
@@ -107,6 +108,7 @@ span {
     align-items: center;
     padding: 0;
     margin: 0;
+    font-weight: 500;
   }
   .container {
     flex-direction: column-reverse;
@@ -122,9 +124,8 @@ span {
 
   .openMenu {
     display: block;
-    position: sticky;
- 
   }
+
 
   .container img {
     width: 370px;
